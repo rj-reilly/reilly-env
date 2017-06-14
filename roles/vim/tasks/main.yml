@@ -1,0 +1,14 @@
+---
+# tasks file for vim
+- name: package | vim
+  package:
+    name: vim
+    state: present
+
+- name: Name for package module.
+  sudo: yes
+  package:
+    name: zsh
+    state: present
+
+
